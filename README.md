@@ -7,4 +7,4 @@
 - :no_pedestrians: most repos are currently private 
 
 
-[![summary](https://cr-skills-chart-widget.azurewebsites.net/api/api?username=yannickaaron)](https://profile.codersrank.io/user/yannickaaron)
+[![summary](https://cr-skills-chart-widget.azurewebsites.net/api/api?username=yannickaaron&skills=Python,JavaScript,TypeScript,Shell,SQL,Jupyter Notebook)](https://profile.codersrank.io/user/yannickaaron)
