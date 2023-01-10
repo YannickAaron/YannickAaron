@@ -1,6 +1,6 @@
 ### Hi there 👋!
 
-- 🔭 Currently working as **Data Strategy Consultang & Data Scientist** at EMPA - Data & Management Consulting
+- 🔭 Currently working as **Data Strategy Consultant & Data Scientist** at EMPA - Data & Management Consulting
 - :snake: Python
 - :bar_chart: Maths, Statistics & Machine Learning
 - :triangular_ruler: 3D-Printing with Klipper
