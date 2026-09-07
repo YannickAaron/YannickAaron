@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="288" viewBox="0 0 900 288" role="img" aria-labelledby="t d">
-<title id="t">Yannick Aaron Lehr — Co-Founder of EMPA Spain, building KIVO</title>
-<desc id="d">An animated schematic: one logged hour travels along a spine and lights up the artifacts it becomes — invoice, margin, capacity, forecast, sign-off.</desc>
+<title id="t">Yannick Aaron Lehr, Cofounder of EMPA Spain, building KIVO</title>
+<desc id="d">An animated schematic: one logged hour travels along a spine and lights up the artifacts it becomes: invoice, margin, capacity, forecast, sign off.</desc>
 
 <style>
 .sans{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
@@ -50,13 +50,13 @@
 <!-- headline -->
 <rect x="32" y="36" width="3" height="34" rx="1.5" fill="#C6E355"/>
 <text class="sans" x="48" y="64" font-size="34" font-weight="600" letter-spacing="-0.5" fill="#F4F6FA">Yannick Aaron Lehr</text>
-<text class="mono" x="49" y="87" font-size="12" fill="#98A0B3">Co-Founder &amp; Director Ejecutivo · EMPA Spain · Valencia</text>
+<text class="mono" x="49" y="87" font-size="12" fill="#98A0B3">Cofounder &amp; Director Ejecutivo · EMPA Spain · Valencia</text>
 <text class="sans" x="852" y="54" font-size="16" font-weight="600" letter-spacing="3.5" text-anchor="end" fill="#C6E355">KIVO</text>
 <text class="mono" x="852" y="78" font-size="11.5" text-anchor="end" fill="#9AA2B5">kivo.eco · European infrastructure</text>
 <rect x="32" y="106" width="820" height="1" fill="url(#rule)"/>
 
 <text class="mono" x="48" y="134" font-size="11" letter-spacing="2.4" fill="#8A92A6">ONE PLATFORM · ONE DATA MODEL</text>
-<text class="mono" x="852" y="134" font-size="11" text-anchor="end" fill="#8A92A6">business software · one write · no re-entry</text>
+<text class="mono" x="852" y="134" font-size="11" text-anchor="end" fill="#8A92A6">one capture · no double entry</text>
 
 <!-- spine -->
 <path d="M96 180H841" stroke="#2C3242" stroke-width="2"/>
@@ -126,7 +126,7 @@
 <text x="394" y="212">margin</text>
 <text x="543" y="212">capacity</text>
 <text x="692" y="212">forecast</text>
-<text x="841" y="212">sign-off</text>
+<text x="841" y="212">sign off</text>
 </g>
 <g class="mono" font-size="11" text-anchor="middle" fill="#949CB0">
 <text x="96" y="228">time entry</text>
