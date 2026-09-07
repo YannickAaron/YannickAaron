@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="288" viewBox="0 0 900 288" role="img" aria-labelledby="t d">
+<title id="t">Yannick Aaron Lehr — Co-Founder of EMPA Spain, building KIVO</title>
+<desc id="d">An animated schematic: one logged hour travels along a spine and lights up the artifacts it becomes — invoice, margin, capacity, forecast, sign-off.</desc>
+
+<style>
+.sans{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.n0{animation:l0 8s linear infinite}
+.n1{animation:l1 8s linear infinite}
+.n2{animation:l2 8s linear infinite}
+.n3{animation:l3 8s linear infinite}
+.n4{animation:l4 8s linear infinite}
+.n5{animation:l5 8s linear infinite}
+@keyframes l0{0%{opacity:0}2%,100%{opacity:1}}
+@keyframes l1{0%,16%{opacity:0}18%,100%{opacity:1}}
+@keyframes l2{0%,32%{opacity:0}34%,100%{opacity:1}}
+@keyframes l3{0%,48%{opacity:0}50%,100%{opacity:1}}
+@keyframes l4{0%,64%{opacity:0}66%,100%{opacity:1}}
+@keyframes l5{0%,80%{opacity:0}82%,100%{opacity:1}}
+@media (prefers-reduced-motion:reduce){
+.n0,.n1,.n2,.n3,.n4,.n5{animation:none;opacity:1}
+.particle{opacity:0}
+}
+</style>
+
+<defs>
+<clipPath id="card"><rect x="8" y="6" width="884" height="276" rx="18"/></clipPath>
+<linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#171B24"/><stop offset="1" stop-color="#10131A"/>
+</linearGradient>
+<linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#C6E355" stop-opacity=".55"/>
+<stop offset=".16" stop-color="#39415A" stop-opacity=".9"/>
+<stop offset="1" stop-color="#39415A" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="aura" cx=".5" cy=".5" r=".5">
+<stop offset="0" stop-color="#C6E355" stop-opacity=".13"/>
+<stop offset="1" stop-color="#C6E355" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5">
+<stop offset="0" stop-color="#EDF8C2" stop-opacity=".75"/>
+<stop offset=".45" stop-color="#C6E355" stop-opacity=".32"/>
+<stop offset="1" stop-color="#C6E355" stop-opacity="0"/>
+</radialGradient>
+</defs>
+
+<rect x="8" y="6" width="884" height="276" rx="18" fill="url(#panel)" stroke="#252B38"/>
+<ellipse cx="150" cy="182" rx="230" ry="90" fill="url(#aura)" clip-path="url(#card)"/>
+
+<!-- headline -->
+<rect x="32" y="36" width="3" height="34" rx="1.5" fill="#C6E355"/>
+<text class="sans" x="48" y="64" font-size="34" font-weight="600" letter-spacing="-0.5" fill="#F4F6FA">Yannick Aaron Lehr</text>
+<text class="mono" x="49" y="87" font-size="12" fill="#98A0B3">Co-Founder &amp; Director Ejecutivo · EMPA Spain · Valencia</text>
+<text class="sans" x="852" y="54" font-size="16" font-weight="600" letter-spacing="3.5" text-anchor="end" fill="#C6E355">KIVO</text>
+<text class="mono" x="852" y="78" font-size="11.5" text-anchor="end" fill="#9AA2B5">kivo.eco · European infrastructure</text>
+<rect x="32" y="106" width="820" height="1" fill="url(#rule)"/>
+
+<text class="mono" x="48" y="134" font-size="11" letter-spacing="2.4" fill="#8A92A6">ONE PLATFORM · ONE DATA MODEL</text>
+<text class="mono" x="852" y="134" font-size="11" text-anchor="end" fill="#8A92A6">business software · one write · no re-entry</text>
+
+<!-- spine -->
+<path d="M96 180H841" stroke="#2C3242" stroke-width="2"/>
+<path d="M96 180H841" stroke="#C6E355" stroke-width="2" stroke-dasharray="745" stroke-dashoffset="0" opacity="1">
+<animate attributeName="stroke-dashoffset" values="745;0;0" keyTimes="0;0.8;1" dur="8s" repeatCount="indefinite"/>
+</path>
+
+<!-- ticks -->
+<g stroke="#333B4D" stroke-width="1">
+<path d="M96 190v8"/><path d="M245 190v8"/><path d="M394 190v8"/><path d="M543 190v8"/><path d="M692 190v8"/><path d="M841 190v8"/>
+</g>
+
+<!-- halos -->
+<g fill="none" stroke="#C6E355" stroke-width="1.5">
+<circle cx="96" cy="180" r="8" opacity="0">
+<animate attributeName="r" values="8;26;26" keyTimes="0;0.1;1" dur="8s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0.5;0;0" keyTimes="0;0.1;1" dur="8s" repeatCount="indefinite"/>
+</circle>
+<circle cx="245" cy="180" r="6" opacity="0">
+<animate attributeName="r" values="6;22;22" keyTimes="0;0.1;1" dur="8s" begin="1.28s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0.5;0;0" keyTimes="0;0.1;1" dur="8s" begin="1.28s" repeatCount="indefinite"/>
+</circle>
+<circle cx="394" cy="180" r="6" opacity="0">
+<animate attributeName="r" values="6;22;22" keyTimes="0;0.1;1" dur="8s" begin="2.56s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0.5;0;0" keyTimes="0;0.1;1" dur="8s" begin="2.56s" repeatCount="indefinite"/>
+</circle>
+<circle cx="543" cy="180" r="6" opacity="0">
+<animate attributeName="r" values="6;22;22" keyTimes="0;0.1;1" dur="8s" begin="3.84s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0.5;0;0" keyTimes="0;0.1;1" dur="8s" begin="3.84s" repeatCount="indefinite"/>
+</circle>
+<circle cx="692" cy="180" r="6" opacity="0">
+<animate attributeName="r" values="6;22;22" keyTimes="0;0.1;1" dur="8s" begin="5.12s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0.5;0;0" keyTimes="0;0.1;1" dur="8s" begin="5.12s" repeatCount="indefinite"/>
+</circle>
+<circle cx="841" cy="180" r="6" opacity="0">
+<animate attributeName="r" values="6;22;22" keyTimes="0;0.1;1" dur="8s" begin="6.4s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0.5;0;0" keyTimes="0;0.1;1" dur="8s" begin="6.4s" repeatCount="indefinite"/>
+</circle>
+</g>
+
+<!-- node markers -->
+<g fill="#12151C" stroke="#3D4557" stroke-width="1.5">
+<circle cx="96" cy="180" r="8"/><circle cx="245" cy="180" r="6"/><circle cx="394" cy="180" r="6"/>
+<circle cx="543" cy="180" r="6"/><circle cx="692" cy="180" r="6"/><circle cx="841" cy="180" r="6"/>
+</g>
+<g fill="#C6E355">
+<circle class="n0" cx="96" cy="180" r="7"/>
+<circle class="n1" cx="245" cy="180" r="5"/>
+<circle class="n2" cx="394" cy="180" r="5"/>
+<circle class="n3" cx="543" cy="180" r="5"/>
+<circle class="n4" cx="692" cy="180" r="5"/>
+<circle class="n5" cx="841" cy="180" r="5"/>
+</g>
+
+<!-- travelling particle -->
+<g class="particle" opacity="0">
+<animateTransform attributeName="transform" type="translate" values="96,180;841,180;841,180" keyTimes="0;0.8;1" dur="8s" calcMode="linear" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.79;0.83;1" dur="8s" repeatCount="indefinite"/>
+<circle r="13" fill="url(#glow)"/>
+<circle r="3.2" fill="#EDF8C2"/>
+</g>
+
+<!-- labels -->
+<g class="sans" font-size="13" font-weight="500" text-anchor="middle" fill="#E7EAF1">
+<text x="96" y="212">1 hour logged</text>
+<text x="245" y="212">invoice</text>
+<text x="394" y="212">margin</text>
+<text x="543" y="212">capacity</text>
+<text x="692" y="212">forecast</text>
+<text x="841" y="212">sign-off</text>
+</g>
+<g class="mono" font-size="11" text-anchor="middle" fill="#949CB0">
+<text x="96" y="228">time entry</text>
+<text x="245" y="228">€ billed</text>
+<text x="394" y="228">project P&amp;L</text>
+<text x="543" y="228">team load</text>
+<text x="692" y="228">cash runway</text>
+<text x="841" y="228">audit trail</text>
+</g>
+
+<rect x="32" y="245" width="820" height="1" fill="#222834"/>
+<text class="mono" x="450" y="264" font-size="10.5" text-anchor="middle" fill="#7E869A">CRM · projects · contracts · time · billing · HR · absences · expenses · documents · planning</text>
+</svg>

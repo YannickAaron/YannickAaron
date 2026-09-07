@@ -1,0 +1,64 @@
+name: Generate metrics panel
+
+on:
+  schedule:
+    # Off-the-hour: GitHub delays crons scheduled on the hour under load
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    # No-op until the METRICS_TOKEN secret exists, so the profile repo never
+    # shows a failing workflow just because the token has not been created yet.
+    env:
+      HAS_TOKEN: ${{ secrets.METRICS_TOKEN != '' }}
+    steps:
+      - if: env.HAS_TOKEN == 'true'
+        uses: lowlighter/metrics@v3.34
+        with:
+          # PAT with NO scopes selected. GITHUB_TOKEN cannot be used here:
+          # it is repo-scoped and cannot read user/org/activity data.
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: YannickAaron
+          # GITHUB_TOKEN is fine for committing, and its pushes do not
+          # re-trigger workflows.
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: main
+          filename: github-metrics.svg
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: Europe/Madrid
+
+          # Languages. indepth stays off: it clones every repo and is the
+          # main cause of job timeouts.
+          plugin_languages: yes
+          plugin_languages_indepth: no
+          plugin_languages_sections: most-used
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_languages_other: yes
+          plugin_languages_ignored: html, css, scss, tex, dockerfile, makefile
+
+          # Isometric commit calendar
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # Coding habits
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_trim: yes
+
+          # Achievements
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: B
+          plugin_achievements_secrets: yes

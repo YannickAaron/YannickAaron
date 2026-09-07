@@ -1,0 +1,24 @@
+[
+  {
+    "type": "normal",
+    "fileName": "profile-kivo-light.svg",
+    "backgroundColor": "#ffffff",
+    "foregroundColor": "#20242E",
+    "strongColor": "#4B5165",
+    "weakColor": "#8A92A6",
+    "radarColor": "#96B62F",
+    "growingAnimation": true,
+    "contribColors": ["#EBEDF0", "#EDF8C2", "#D3EA7A", "#C6E355", "#96B62F"]
+  },
+  {
+    "type": "normal",
+    "fileName": "profile-kivo-dark.svg",
+    "backgroundColor": "#0D1117",
+    "foregroundColor": "#E7EAF1",
+    "strongColor": "#C6E355",
+    "weakColor": "#7E869A",
+    "radarColor": "#C6E355",
+    "growingAnimation": true,
+    "contribColors": ["#21262D", "#5C6B23", "#8AA332", "#C6E355", "#EDF8C2"]
+  }
+]
