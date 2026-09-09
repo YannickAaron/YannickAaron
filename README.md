@@ -19,13 +19,15 @@ them, and use AI where it actually pays off, not where it merely demos well.
 
 ## 🚀 Currently building: KIVO
 
-> **A European business management platform built to run companies on one connected data foundation.**
-
-Instead of moving information between disconnected systems, data is captured where it originates and
-immediately becomes part of the wider business context, enabling automated processes, better
-decisions and a view of the company that is always current. Today KIVO is built for service
-businesses. The vision is to grow it into the operating system through which midsized companies
-across industries manage, understand and steer their entire organisation.
+> KIVO is a Unified Business Platform built on one connected data foundation, shaped in Europe
+> around European business realities, values, and infrastructure. It provides a set of ready-to-use
+> processes to run your business. Instead of creating information in separate systems, data is
+> captured where it originates and immediately becomes part of the wider business context, creating
+> a continuously updated foundation for automation and intelligent insights. This single source of
+> truth enables the use of full context, supporting better decision-making and creating the
+> foundation businesses need for an AI-driven future. KIVO supports service-based businesses today,
+> with the next step to expand across industries and become the central operating system through
+> which companies run, understand, and steer their organization.
 
 It is not a traditional ERP, and that word does not really fit. KIVO is a holistic system for
 running the whole business rather than one more tool sitting next to all the others.
@@ -48,7 +50,7 @@ buying software, you are getting the well designed, tested processes that come w
 * **No consultants, no technical setup**, and no bending KIVO around the processes you happen to have today.
 * **No separate automation layer** bolted on because automation is the current buzzword. The processes for lead management, device management, HR contracts and the rest ship finished, already fed by the right data, and they always look at the business as a whole.
 
-### Data is captured where it originates
+### One capture, everything downstream
 
 No transfer between systems, no double entry, no two readings of the same fact. Standard cases run
 by themselves and the system only speaks up when something is out of the ordinary or a decision is
